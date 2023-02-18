@@ -25,7 +25,7 @@ export default function Test() {
 
 
     return (
-        <div className="flex justify-between items-center px-8 py-4 text-stone-300 bg-green-900">
+        <nav className="flex justify-between items-center px-8 py-4 text-stone-300 bg-green-900">
             <img src="./src/Images/logo.png" className="h-20 w-auto"/>
 
             {/* desktop nav menu */}
@@ -56,7 +56,7 @@ export default function Test() {
             </div>
 
             {/* Mobile nav menu */}
-            <ul className={nav ? 'fixed left-0 top-0 w-72 bg-green-900 h-full ease-in-out duration-500' : 'ease-in-out duration-1000 fixed left-[-100%] top-0 h-full w-72'}>
+            <ul className={nav ? 'fixed left-0 top-0 w-72 bg-green-900 h-full ease-in-out duration-500 border-r border-r-stone-300 z-40' : 'ease-in-out duration-1000 fixed left-[-100%] top-0 h-full w-72 z-40'}>
                 <li>
                 <img src="./src/Images/logo.png" className="h-20 w-auto m-4"/>
                 </li>
@@ -85,6 +85,6 @@ export default function Test() {
                     </div>
                 </li>
             </ul>
-        </div>
+        </nav>
     )
 }
