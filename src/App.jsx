@@ -1,11 +1,12 @@
-import react from 'react'
-
+import React from 'react'
+import NavBar from '../src/Components/NavBar'
 
 function App() {
 
   return (
-    <div className="text-red-100 text-5xl">
-      <h1>Test Tailwind</h1>
+    <div>
+      <NavBar />
+      
     </div>
   )
 }
