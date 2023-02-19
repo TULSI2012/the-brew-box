@@ -17,7 +17,7 @@ export default function Newsletter() {
             <input 
                 type="email" 
                 placeholder="john.smith@email.com" 
-                className="bg-[#f3d7a8] text-stone-800 border border-stone-300 mt-6 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-green-500 " 
+                className="bg-[#f3d7a8] placeholder:text-stone-600 text-stone-800 border border-stone-300 mt-6 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-green-500 " 
             />
             <button className="bg-orange-500 px-5 py-2 mt-4 text-stone-100 rounded-md">
                 Sign up
