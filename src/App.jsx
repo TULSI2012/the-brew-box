@@ -5,6 +5,7 @@ import Collections from './Components/Collections'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import Newsletter from './Components/Newsletter'
+import AllProducts from './Pages/AllProducts'
 import { Routes, Route } from "react-router-dom"
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
             <Newsletter />
           </> } 
         />
-        <Route path="/test" element={<h1>Test</h1>}/>
+        <Route path="/all" element={<AllProducts />} />
       </Routes>
       <Footer />
     </div>
