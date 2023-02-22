@@ -3,6 +3,7 @@ import { AiOutlineClose, AiOutlineMenu , AiOutlineShoppingCart, AiOutlineInstagr
 import { CgProfile } from 'react-icons/cg'
 import { BsFacebook } from 'react-icons/bs'
 import { FaTiktok } from 'react-icons/fa'
+import { Link } from "react-router-dom";
 
 export default function Test() {
 
@@ -26,7 +27,9 @@ export default function Test() {
 
     return (
         <nav className="flex justify-between items-center px-8 py-4 text-stone-300 bg-[#31452C]">
-            <img src="./src/Images/logo.png" className="h-20 w-auto"/>
+            <Link to="/">
+                <img src="./src/Images/logo.png" className="h-20 w-auto"/>
+            </Link>
 
             {/* desktop nav menu */}
             <ul className="hidden md:flex md:gap-x-4">

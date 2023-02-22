@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
     return (
@@ -9,12 +10,12 @@ export default function Hero() {
                 connoisseurs with our exceptional blends. Order now and start
                 your journey to coffee perfection.
             </p>
-            <div className="mt-28 mb-5 bg-[#f3d7a8] w-96 justify-center px-10">
+            <div className="mt-28 mb-5 bg-[#f3d7a8] w-80 justify-center px-10">
                 <img src="./src/Images/coffee-bag.png" alt="american roast" className="-translate-y-16" />
             </div>
-            <button className="bg-orange-500 mt-4 px-5 py-2 text-white font-bold rounded-md">
+            <Link to="/all" className="bg-orange-500 mt-4 px-5 py-2 text-white font-bold rounded-md">
                 Explore Range
-            </button>
+            </Link>
         </section>
     )
 }
