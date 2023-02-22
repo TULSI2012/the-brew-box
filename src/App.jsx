@@ -7,6 +7,7 @@ import Hero from './Components/Hero'
 import Newsletter from './Components/Newsletter'
 import AllProducts from './Pages/AllProducts'
 import { Routes, Route } from "react-router-dom"
+import SingleProduct from './Pages/SingleProduct'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             <Newsletter />
           </> } 
         />
+        <Route path="/products/:productId" element={<SingleProduct />}/>
         <Route path="/all" element={<AllProducts />} />
       </Routes>
       <Footer />
