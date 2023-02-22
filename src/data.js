@@ -9,7 +9,7 @@ const products = [
         "flavours": "Lemon, blueberry, chocolate",
         "geography": "Ethiopia",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -25,7 +25,7 @@ const products = [
         "flavours": "Caramel, nutmeg, dark chocolate",
         "geography": "Colombia",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -41,7 +41,7 @@ const products = [
         "flavours": "Honey, apricot, citrus",
         "geography": "Guatemala",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -54,10 +54,10 @@ const products = [
         "bestSeller" : true,
         "description": "This light-roasted coffee is known for its bright acidity and clean finish. It has notes of tangerine, caramel, and milk chocolate.",
         "collection": "Seasonal",
-        "flavours": "Tangerine, caramel, milk chocolate",
+        "flavours": "Caramel, Milk chocolate",
         "geography": "Costa Rica",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -73,7 +73,7 @@ const products = [
         "flavours": "Nuts, spices, citrus",
         "geography": "Jamaica",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -86,10 +86,10 @@ const products = [
         "bestSeller" : true,
         "description": "This light-roasted coffee has a bright, fruity flavor with notes of black currant, peach, and a hint of chocolate. It has a smooth finish and a medium body.",
         "collection": "Espresso",
-        "flavours": "Black currant, peach, chocolate",
+        "flavours": "Black currant, Peach",
         "geography": "Tanzania",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -102,10 +102,10 @@ const products = [
         "bestSeller" : true,
         "description": "This dark-roasted coffee has a heavy body and a complex, earthy flavor with notes of dark chocolate, tobacco, and a hint of spice.",
         "collection": "Signature",
-        "flavours": "Dark chocolate, tobacco, spice",
+        "flavours": "Dark chocolate, Tobacco, Spice",
         "geography": "Sumatra",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -121,7 +121,7 @@ const products = [
         "flavours": "Nutty, chocolate, fruit",
         "geography": "Brazil",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -137,7 +137,7 @@ const products = [
         "flavours": "Caramel, nuts, cinnamon",
         "geography": "Mexico",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -150,10 +150,10 @@ const products = [
         "bestSeller" : false,
         "description": "This medium-roasted coffee has a balanced flavor with notes of blueberry, dark chocolate, and a hint of citrus. It has a medium body and a smooth finish.",
         "collection": "Ethiopia",
-        "flavours": "Blueberry, dark chocolate, citrus",
+        "flavours": "Blueberry, Dark chocolate",
         "geography": "Ethiopia",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -166,10 +166,9 @@ const products = [
         "bestSeller" : false,
         "description": "This light-roasted coffee is known for its bright acidity and complex flavor profile. It has notes of black currant, grapefruit, and a hint of floral sweetness.",
         "collection": "Espresso",
-        "flavours": "Black currant, grapefruit, floral sweetness",
-        "geography": "Kenya",
+        "flavours": "Black currant, Grapefruit",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -185,7 +184,7 @@ const products = [
         "flavours": "Dark chocolate, molasses, spice",
         "geography": "Indonesia",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -198,10 +197,10 @@ const products = [
         "bestSeller" : false,
         "description": "This medium-roasted coffee has a bright, fruity flavor with notes of red currant, honey, and a hint of floral sweetness. It has a medium body and a clean finish.",
         "collection": "Roaster's Choice",
-        "flavours": "Red currant, honey, floral sweetness",
+        "flavours": "Red currant, floral sweetness",
         "geography": "Rwanda",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -217,7 +216,7 @@ const products = [
         "flavours": "Chocolate, caramel, nuttiness",
         "geography": "Peru",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -231,10 +230,10 @@ const products = [
         "bestSeller" : false,
         "description": "This dark-roasted coffee is known for its strong, bold flavor with notes of dark chocolate, hazelnut, and a hint of vanilla. It has a full body and a smooth finish.",
         "collection": "Espresso",
-        "flavours": "Dark chocolate, hazelnut, vanilla",
+        "flavours": "Dark chocolate, hazelnut",
         "geography": "Vietnam",
         "bean": "Robusta",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -247,10 +246,10 @@ const products = [
         "bestSeller" : false,
         "description": "This medium-dark roasted coffee has a unique, earthy flavor with notes of spice, tobacco, and a hint of fruitiness. It has a low acidity and a full body.",
         "collection": "Signature",
-        "flavours": "Earthy, spice, tobacco, fruitiness",
+        "flavours": "Spice, tobacco, fruitiness",
         "geography": "India",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -266,7 +265,7 @@ const products = [
         "flavours": "Blackberry, apricot, wine",
         "geography": "Yemen",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -279,10 +278,10 @@ const products = [
         "bestSeller" : false,
         "description": "This medium-roasted coffee has a smooth, nutty flavor with notes of caramel, almond, and a hint of honey. It has a medium body and a clean finish.",
         "collection": "Espresso",
-        "flavours": "Nutty, caramel, almond, honey",
+        "flavours": "Nutty, caramel, Almond",
         "geography": "Nicaragua",
         "bean": "Arabica",
-        "image": "./src/Images/coffee-bag.png",
+        "image": "../src/Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
