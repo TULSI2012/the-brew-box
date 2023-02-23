@@ -2,6 +2,7 @@ import React, { useContext} from "react";
 import products from "../data";
 import { ShopContext } from "../context/shop-context";
 import CartItem from "../Components/CartItem";
+import { Link } from "react-router-dom";
 
 export default function Cart() {
 
@@ -38,10 +39,17 @@ export default function Cart() {
                     <p className="font-semibold">${totalAmount + 10}.00</p>
                 </div>
             </div>
-            <div>
+            <div className="mb-4">
                 <button className="w-full py-2 font-semibold text-white bg-orange-400 rounded-lg">
                     Checkout
                 </button>
+            </div>
+            <div>
+                <Link to="/all">
+                    <button to="/all" className="w-full py-2 font-semibold text-gray-200 bg-gray-800 rounded-lg">
+                        Back to Shop
+                    </button>
+                </Link>
             </div>
         </section>
     )
