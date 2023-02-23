@@ -9,6 +9,7 @@ import AllProducts from './Pages/AllProducts'
 import { Routes, Route } from "react-router-dom"
 import SingleProduct from './Pages/SingleProduct'
 import { ShopContextProvider } from './context/shop-context'
+import Cart from './Pages/Cart'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           />
           <Route path="/products/:productId" element={<SingleProduct />}/>
           <Route path="/all" element={<AllProducts />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer />
       </ShopContextProvider>

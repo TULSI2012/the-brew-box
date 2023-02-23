@@ -105,10 +105,11 @@ export default function SingleProduct() {
                         Add to Cart
                 </button>
             </div>
-            <button 
+            <Link 
+                to="/cart"
                 className="w-full px-5 py-2 font-bold text-white bg-gray-500 rounded-md">
                     Checkout {cartItemAmount > 0 && <>({cartItemAmount})</>}
-            </button>
+            </Link>
             <p className="text-xs text-gray-400">
                 *Orders are roasted to Order.
             </p>
