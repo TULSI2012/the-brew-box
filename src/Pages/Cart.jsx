@@ -22,34 +22,36 @@ export default function Cart() {
                     }
                 })}
             </div>
-            <div className="flex flex-col mt-10 mb-8 gap-y-4">
-                <p className="text-xl font-semibold">Order Summary</p>
-                <div>
-                <div className="flex justify-between">
-                    <p className="text-sm text-gray-500">Subtotal:</p>
-                    <p className="text-sm text-gray-500">${totalAmount}</p>
+            <div className="max-w-md mx-auto">
+                <div className="flex flex-col mt-10 mb-8 gap-y-4">
+                    <p className="text-xl font-semibold">Order Summary</p>
+                    <div>
+                    <div className="flex justify-between">
+                        <p className="text-sm text-gray-500">Subtotal:</p>
+                        <p className="text-sm text-gray-500">${totalAmount}.00</p>
+                    </div>
+                    <div className="flex justify-between">
+                        <p className="text-sm text-gray-500">Shipping:</p>
+                        <p className="text-sm text-gray-500">+ $10.00</p>
+                    </div>
+                    </div>
+                    <div className="flex justify-between">
+                        <p className="text-sm text-gray-500">Total:</p>
+                        <p className="font-semibold">${totalAmount + 10}.00</p>
+                    </div>
                 </div>
-                <div className="flex justify-between">
-                    <p className="text-sm text-gray-500">Shipping:</p>
-                    <p className="text-sm text-gray-500">+$10.00</p>
-                </div>
-                </div>
-                <div className="flex justify-between">
-                    <p className="text-sm text-gray-500">Total:</p>
-                    <p className="font-semibold">${totalAmount + 10}.00</p>
-                </div>
-            </div>
-            <div className="mb-4">
-                <button className="w-full py-2 font-semibold text-white bg-orange-400 rounded-lg">
-                    Checkout
-                </button>
-            </div>
-            <div>
-                <Link to="/all">
-                    <button to="/all" className="w-full py-2 font-semibold text-gray-200 bg-gray-800 rounded-lg">
-                        Back to Shop
+                <div className="mb-4">
+                    <button className="w-full py-2 font-semibold text-white bg-orange-400 rounded-lg">
+                        Checkout
                     </button>
-                </Link>
+                </div>
+                <div>
+                    <Link to="/all">
+                        <button to="/all" className="w-full py-2 font-semibold text-gray-200 bg-gray-800 rounded-lg">
+                            Back to Shop
+                        </button>
+                    </Link>
+                </div>
             </div>
         </section>
     )

@@ -27,7 +27,7 @@ export default function SingleProduct() {
     const cartItemAmount = cartItems[product.id]
 
     return (
-        <section className="px-6 pb-10 text-xl">
+        <section className="px-6 pb-10">
             <div className="flex self-start mt-4 text-xs gap-x-1 text-stone-500">
                 <Link to="/">Home</Link>
                 <p>/</p>
@@ -108,7 +108,7 @@ export default function SingleProduct() {
             <Link to="/cart">
                 <button
                     className="w-full px-5 py-2 font-bold text-white bg-gray-500 rounded-md">
-                        Checkout {cartItemAmount > 0 && <>({cartItemAmount})</>}
+                        View Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
                 </button>
             </Link>
             <p className="text-xs text-gray-400">
