@@ -13,7 +13,7 @@ export default function CartItem(props) {
                 <img src={props.image} alt="cart-item" className="w-16" />
             </div>
             <div className="flex flex-col justify-between w-full sm:flex-row sm:items-center gap-x-4">
-                <div className="sm:flex sm:items-center gap-x-4">
+                <div className="sm:flex sm:items-center sm:gap-x-4">
                     <h1 className="font-semibold">{props.title}</h1>
                     <p className="text-sm text-gray-600">${props.price}.00</p>
                 </div>

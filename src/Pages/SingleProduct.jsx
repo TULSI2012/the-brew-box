@@ -35,88 +35,92 @@ export default function SingleProduct() {
                 <p>/</p>
                 <p>{product.title}</p>
             </div>
-            <div className="w-3/4 mx-auto my-6">
-                <img src={product.image}/>
-            </div>
-            <h1 className="mb-4 text-3xl font-semibold">
-                {product.title}
-            </h1>
-            <div className="flex justify-between mb-8">
-                <p className="font-semibold">
-                    Quantity:
-                </p>
-                <div className="flex gap-x-2">
-                    <button 
-                        onClick={subtractItem}
-                        className="px-4 bg-gray-300">
-                            -
-                    </button>
-                    <p>
-                        {quantity}
+            <div className="lg:flex lg:gap-x-8">
+                <div className="flex justify-center w-3/4 py-6 mx-auto my-6 bg-gray-200 lg:w-1/2 lg:mx-0">
+                    <img src={product.image} className="w-1/2"/>
+                </div>
+                <div className="lg:my-6 lg:w-1/2 lg:mr-10 lg:text-xl">
+                    <h1 className="mb-4 text-3xl font-semibold lg:text-5xl">
+                        {product.title}
+                    </h1>
+                    <div className="flex justify-between mb-8">
+                        <p className="font-semibold">
+                            Quantity:
+                        </p>
+                        <div className="flex gap-x-2">
+                            <button 
+                                onClick={subtractItem}
+                                className="px-4 bg-gray-300">
+                                    -
+                            </button>
+                            <p>
+                                {quantity}
+                            </p>
+                            <button
+                                onClick={addItem} 
+                                className="px-4 bg-gray-300">
+                                    +
+                            </button>
+                        </div>
+                    </div>
+                    <div className="flex flex-col mb-8 gap-y-2 lg:gap-y-4">
+                        <div className="flex justify-between border-b-2">
+                            <p className="font-semibold">
+                                Flavours:
+                            </p>
+                            <p className="text-base">
+                                {product.flavours}
+                            </p>
+                        </div>
+                        <div className="flex justify-between border-b-2">
+                            <p className="font-semibold">
+                                Geography:
+                            </p>
+                            <p className="text-base">
+                                {product.geography}
+                            </p>
+                        </div>
+                        <div className="flex justify-between border-b-2">
+                            <p className="font-semibold">
+                                Beans:
+                            </p>
+                            <p className="text-base">
+                                {product.bean}
+                            </p>
+                        </div>
+                        <div className="flex justify-between border-b-2">
+                            <p className="font-semibold">
+                                Collection:
+                            </p>
+                            <p className="text-base">
+                                {product.collection}
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex items-center justify-between mb-8">
+                        <p className="font-semibold">
+                            ${product.price}.00
+                        </p>
+                        <button 
+                            onClick={() => addToCart(product.id)}
+                            className="px-5 py-2 font-bold text-white bg-orange-500 rounded-md">
+                                Add to Cart
+                        </button>
+                    </div>
+                    <Link to="/cart">
+                        <button
+                            className="w-full px-5 py-2 font-bold text-white bg-gray-500 rounded-md lg:w-1/4">
+                                View Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
+                        </button>
+                    </Link>
+                    <p className="text-xs text-gray-400">
+                        *Orders are roasted to Order.
                     </p>
-                    <button
-                        onClick={addItem} 
-                        className="px-4 bg-gray-300">
-                            +
-                    </button>
+                    <p className="text-xs text-gray-400">
+                        *Only the freshest coffee arives at your doorstep.
+                    </p>
                 </div>
             </div>
-            <div className="flex flex-col mb-8 gap-y-2">
-                <div className="flex justify-between border-b-2">
-                    <p className="font-semibold">
-                        Flavours:
-                    </p>
-                    <p className="text-base">
-                        {product.flavours}
-                    </p>
-                </div>
-                <div className="flex justify-between border-b-2">
-                    <p className="font-semibold">
-                        Geography:
-                    </p>
-                    <p className="text-base">
-                        {product.geography}
-                    </p>
-                </div>
-                <div className="flex justify-between border-b-2">
-                    <p className="font-semibold">
-                        Beans:
-                    </p>
-                    <p className="text-base">
-                        {product.bean}
-                    </p>
-                </div>
-                <div className="flex justify-between border-b-2">
-                    <p className="font-semibold">
-                        Collection:
-                    </p>
-                    <p className="text-base">
-                        {product.collection}
-                    </p>
-                </div>
-            </div>
-            <div className="flex items-center justify-between mb-8">
-                <p className="font-semibold">
-                    ${product.price}.00
-                </p>
-                <button 
-                    onClick={() => addToCart(product.id)}
-                    className="px-5 py-2 font-bold text-white bg-orange-500 rounded-md">
-                        Add to Cart
-                </button>
-            </div>
-            <Link to="/cart">
-                <button
-                    className="w-full px-5 py-2 font-bold text-white bg-gray-500 rounded-md">
-                        View Cart {cartItemAmount > 0 && <>({cartItemAmount})</>}
-                </button>
-            </Link>
-            <p className="text-xs text-gray-400">
-                *Orders are roasted to Order.
-            </p>
-            <p className="text-xs text-gray-400">
-                *Only the freshest coffee arives at your doorstep.
-            </p>
         </section>
     )
 }
