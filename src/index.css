@@ -5,8 +5,3 @@
 * {
   box-sizing: border-box;
 }
-
-.hero {
-  background-image: url('./Images/hero-bg.jpg');
-  filter: brightness(50%);
-}

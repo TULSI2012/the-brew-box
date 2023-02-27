@@ -6,6 +6,7 @@ import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import Newsletter from './Components/Newsletter'
 import AllProducts from './Pages/AllProducts'
+import CollectionPage from './Pages/CollectionPage'
 import { Routes, Route } from "react-router-dom"
 import SingleProduct from './Pages/SingleProduct'
 import { ShopContextProvider } from './context/shop-context'
@@ -27,6 +28,7 @@ function App() {
             </> } 
           />
           <Route path="/products/:productId" element={<SingleProduct />}/>
+          <Route path="/collections/:collection" element={<CollectionPage />}/>
           <Route path="/all" element={<AllProducts />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
