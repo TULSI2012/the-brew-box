@@ -26,7 +26,7 @@ export default function Test() {
 
 
     return (
-        <nav className="flex justify-between items-center px-8 py-4 text-stone-300 bg-[#31452C]">
+        <nav className="flex items-center justify-between px-6 py-4 text-gray-100 bg-black">
             <Link to="/">
                 <img src="../src/Images/logo.png" className="w-auto h-20"/>
             </Link>
@@ -59,31 +59,31 @@ export default function Test() {
             </div>
 
             {/* Mobile nav menu */}
-            <ul className={nav ? 'fixed left-0 top-0 w-72 bg-[#31452C] h-full ease-in-out duration-500 border-r border-r-stone-300 z-40' : 'bg-[#31452C] ease-in-out duration-1000 fixed left-[-100%] top-0 h-full w-72 z-40'}>
+            <ul className={nav ? 'fixed left-0 top-0 w-72 bg-neutral-900 h-full ease-in-out duration-1000 border-r border-r-neutral-700 z-40' : 'bg-neutral-900 ease-in-out duration-1000 fixed left-[-100%] top-0 h-full w-72 z-40'}>
                 <li>
                 <img src="../src/Images/logo.png" className="w-auto h-20 m-4"/>
                 </li>
-                <li className="py-4 mx-6 border-b cursor-pointer border-b-gray-400 text-stone-300 hover:text-gray-400">
+                <li className="py-4 mx-6 text-gray-200 border-b cursor-pointer border-b-neutral-600 hover:text-gray-400">
                    <a>About</a> 
                 </li>
-                <li className="py-4 mx-6 border-b cursor-pointer border-b-gray-400 text-stone-300 hover:text-gray-400">
+                <li className="py-4 mx-6 text-gray-200 border-b cursor-pointer border-b-neutral-600 hover:text-gray-400">
                    <a>Shop</a>
                 </li>
-                <li className="py-4 mx-6 border-b cursor-pointer border-b-gray-400 text-stone-300 hover:text-gray-400">
-                   <a>Blog</a>
+                <li className="py-4 mx-6 text-gray-200 border-b cursor-pointer border-b-neutral-600 hover:text-gray-400">
+                   <a>Cart</a>
                 </li>
-                <li className="py-4 mx-6 border-b cursor-pointer border-b-gray-400 text-stone-300 hover:text-gray-400">
+                <li className="py-4 mx-6 text-gray-200 border-b cursor-pointer border-b-neutral-600 hover:text-gray-400">
                    <a>Contact</a> 
                 </li>
-                <li className="py-4 mx-6 border-b cursor-pointer border-b-gray-400 text-stone-300 hover:text-gray-400">
+                <li className="py-4 mx-6 text-gray-200 border-b cursor-pointer border-b-neutral-600 hover:text-gray-400">
                    <a>Profile</a> 
                 </li>
                 <li>
-                    <div className="flex items-center mx-6 mt-10 gap-x-4 text-stone-300">
-                        <AiOutlineInstagram size={30} className="cursor-pointer  hover:text-stone-400"/>
-                        <BsFacebook size={25} className="cursor-pointer  hover:text-stone-400"/>
-                        <AiFillYoutube size={30} className="cursor-pointer  hover:text-stone-400"/>
-                        <AiOutlineTwitter size={30} className="cursor-pointer  hover:text-stone-400"/>
+                    <div className="flex items-center mx-6 mt-10 text-gray-100 gap-x-4">
+                        <AiOutlineInstagram size={30} className="cursor-pointer hover:text-stone-400"/>
+                        <BsFacebook size={25} className="cursor-pointer hover:text-stone-400"/>
+                        <AiFillYoutube size={30} className="cursor-pointer hover:text-stone-400"/>
+                        <AiOutlineTwitter size={30} className="cursor-pointer hover:text-stone-400"/>
                         <FaTiktok size={25} className="cursor-pointer hover:text-stone-400"/>
                     </div>
                 </li>
