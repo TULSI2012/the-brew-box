@@ -7,32 +7,34 @@ import { RiArrowDropDownLine } from 'react-icons/ri'
 
 export default function Footer() {
     return (
-        <footer className="bg-[#283923] flex flex-col justify-center items-center gap-y-6 py-10 px-8">
-                <div className="w-full flex justify-between items-center text-stone-300 cursor-pointer hover:text-gray-400">
+        <footer className="flex flex-col items-center px-8 py-6 bg-gray-300">
+            <div className="flex flex-col justify-center w-full gap-y-4 md:flex-row md:gap-x-10 md:border-b-2 md:border-b-gray-400 md:pb-2">
+                <div className="flex items-center justify-between text-gray-800 cursor-pointer hover:text-gray-500">
                    <a>About</a> 
-                   <RiArrowDropDownLine size={20} />
+                   <RiArrowDropDownLine size={20} className="md:hidden"/>
                 </div>
-                <div className="w-full flex justify-between items-center  text-stone-300 cursor-pointer hover:text-gray-400">
+                <div className="flex items-center justify-between text-gray-800 cursor-pointer hover:text-gray-500">
                    <a>Help Center</a>
-                    <RiArrowDropDownLine size={20}/>    
+                    <RiArrowDropDownLine size={20} className="md:hidden"/>    
                 </div>
-                <div className="w-full flex justify-between items-center  text-stone-300 cursor-pointer hover:text-gray-400">
+                <div className="flex items-center justify-between text-gray-800 cursor-pointer hover:text-gray-500">
                    <a>Company</a>
-                    <RiArrowDropDownLine size={20}/>
+                    <RiArrowDropDownLine size={20} className="md:hidden"/>
                 </div>
-                <div className="w-full flex justify-between items-center  text-stone-300 cursor-pointer hover:text-gray-400">
+                <div className="flex items-center justify-between text-gray-800 cursor-pointer hover:text-gray-500">
                    <a>Contact</a> 
-                    <RiArrowDropDownLine size={20}/>
+                    <RiArrowDropDownLine size={20} className="md:hidden"/>
                 </div>
-                <div className="w-full flex justify-between items-center text-stone-300 cursor-pointer hover:text-gray-400">
+                <div className="flex items-center justify-between text-gray-800 cursor-pointer hover:text-gray-500">
                    <a>Offers</a>
-                   <RiArrowDropDownLine size={20}/> 
+                   <RiArrowDropDownLine size={20} className="md:hidden"/> 
                 </div>
-                <div className="flex items-center mt-10 mx-6 gap-x-8 text-stone-300">
-                    <AiOutlineInstagram size={30} className=" cursor-pointer hover:text-stone-400"/>
-                    <BsFacebook size={25} className=" cursor-pointer hover:text-stone-400"/>
-                    <AiFillYoutube size={30} className=" cursor-pointer hover:text-stone-400"/>
-                    <AiOutlineTwitter size={30} className=" cursor-pointer hover:text-stone-400"/>
+            </div>
+                <div className="flex items-center mx-6 mt-6 text-gray-800 gap-x-8">
+                    <AiOutlineInstagram size={30} className="cursor-pointer hover:text-stone-400"/>
+                    <BsFacebook size={25} className="cursor-pointer hover:text-stone-400"/>
+                    <AiFillYoutube size={30} className="cursor-pointer hover:text-stone-400"/>
+                    <AiOutlineTwitter size={30} className="cursor-pointer hover:text-stone-400"/>
                     <FaTiktok size={25} className="cursor-pointer hover:text-stone-400"/>
                 </div>
         </footer>
