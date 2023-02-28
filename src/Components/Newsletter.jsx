@@ -16,7 +16,7 @@ export default function Newsletter() {
                     className="px-3 py-2 bg-gray-200 border border-gray-300 rounded-lg shadow-sm placeholder:text-gray-400 text-neutral-800 focus:outline-none focus:border-gray-400 " 
                 />
                 <button 
-                    className="w-24 py-2 mt-2 font-semibold text-center text-orange-500 border-2 border-orange-500 rounded-md cursor-pointer bg-none hover:bg-orange-500 hover:text-white min-[540px]:mt-0">
+                    className="w-24 py-2 mt-2 font-semibold text-center text-gray-100 rounded-md cursor-pointer bg-gray-800 hover:bg-gray-600 min-[540px]:mt-0">
                     Sign up
                 </button>
             </div>

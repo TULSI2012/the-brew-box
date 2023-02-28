@@ -32,7 +32,7 @@ export default function BestSellers() {
             {/* Links to a page that displays all products with the bestSeller key set to true */}
             <Link 
                 to="/best-sellers"
-                className="block w-32 py-1 mx-auto mt-10 font-semibold text-center text-orange-500 border-2 border-orange-500 rounded-md cursor-pointer bg-none hover:bg-orange-500 hover:text-black">
+                className="block w-32 py-1 mx-auto mt-10 font-semibold text-center text-gray-100 bg-gray-800 rounded-md cursor-pointer hover:bg-gray-600 hover:text-black">
                 View All
             </Link>
         </section>
