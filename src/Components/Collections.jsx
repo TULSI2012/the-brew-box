@@ -7,7 +7,7 @@ export default function Collections() {
 
     return (
         // Main container that controls when the layout is vertical vs horizontal 
-        <section className="flex flex-col items-center px-4 py-10 bg-neutral-100 gap-y-4 md:flex-row md:justify-center md:gap-x-4">
+        <section className="flex flex-col items-center px-4 py-10 bg-gray-50 gap-y-4 md:flex-row md:justify-center md:gap-x-4">
 
             {/* Group 1 - Long div + 2 smaller divs*/}
             <div className="flex flex-col w-full max-w-lg gap-y-4">

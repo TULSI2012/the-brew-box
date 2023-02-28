@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Newsletter() {
     return (
-        <section className="flex flex-col items-center h-full px-6 pb-10 bg-gray-100">
+        <section className="flex flex-col items-center h-full px-6 pb-10 bg-gray-50">
             <h2 className="max-w-3xl text-4xl font-semibold text-center text-neutral-900">
                 Subscribe to our newsletter to get updates on our latest products
             </h2>

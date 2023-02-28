@@ -10,7 +10,7 @@ export default function BestSellers() {
     const bestSellersFour = bestSellers.slice(0, 3)
 
     return (
-        <section className="h-full p-10 bg-neutral-100">
+        <section className="h-full p-10 bg-gray-50">
             <h2 className="text-4xl font-bold text-neutral-900">
                 Our Best Sellers
             </h2>
