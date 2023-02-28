@@ -2,26 +2,27 @@ import React from "react";
 
 export default function Newsletter() {
     return (
-        <section className="flex flex-col items-center bg-[#31452C] text-stone-300 h-full p-10">
-            <h2 className="text-4xl text-center font-bold text-stone-200 uppercase">
-                Never miss an offer
+        <section className="flex flex-col items-center h-full px-6 pb-10 bg-gray-100">
+            <h2 className="max-w-3xl text-4xl font-semibold text-center text-neutral-900">
+                Subscribe to our newsletter to get updates on our latest products
             </h2>
-            <p className="text-center mt-4 mb-8 mx-16 text-lg leading-6 max-w-sm">
-                Sign up to our newsletter and receive 10% off + free shipping on your next order
+            <p className="mt-4 text-sm text-center text-neutral-500">
+                Get 20% off on your first order by subscribing below!
             </p>
-            <img 
-                src="./src/Images/drinking-coffee.jpg" 
-                alt="girl sipping coffee"
-                className="h-[34rem]" 
-            />
-            <input 
-                type="email" 
-                placeholder="john.smith@email.com" 
-                className="bg-[#f3d7a8] placeholder:text-stone-600 text-stone-800 border border-stone-300 mt-6 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-green-500 " 
-            />
-            <button className="bg-orange-500 px-5 py-2 mt-4 text-stone-100 rounded-md">
-                Sign up
-            </button>
+            <div className="mt-6 flex flex-col items-center min-[540px]:flex-row min-[540px]:items-center min-[540px]:gap-x-2">
+                <input 
+                    type="email" 
+                    placeholder="Enter your email" 
+                    className="px-3 py-2 bg-gray-200 border border-gray-300 rounded-lg shadow-sm placeholder:text-gray-400 text-neutral-800 focus:outline-none focus:border-gray-400 " 
+                />
+                <button 
+                    className="w-24 py-2 mt-2 font-semibold text-center text-orange-500 border-2 border-orange-500 rounded-md cursor-pointer bg-none hover:bg-orange-500 hover:text-white min-[540px]:mt-0">
+                    Sign up
+                </button>
+            </div>
+            <p className="mt-4 text-xs text-center text-neutral-400">
+                You will be able to unsubscribe at any time.
+            </p>
         </section>
     )
 }
