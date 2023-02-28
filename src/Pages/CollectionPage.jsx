@@ -17,10 +17,10 @@ export default function AllProducts() {
                 <p>/</p>
                 <p>{collection} Collection</p>
             </div>
-            <h2 className="my-8 text-4xl font-bold text-neutral-800">
+            <h2 className="my-8 text-4xl font-bold text-neutral-800 sm:text-5xl">
                 {collection} Collection
             </h2>
-            <div className="flex flex-wrap justify-center max-w-5xl gap-4">
+            <div className="flex flex-wrap justify-center max-w-6xl gap-10">
                 {/* mapping over collectionArray and generating a card for each element in the array */}
                 {collectionArray.map(product => {
                     return <ProductCard 

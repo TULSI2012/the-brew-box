@@ -14,7 +14,7 @@ export default function Cart() {
 
     return (
         <section className="min-h-screen px-6 py-10">
-            <h1 className="text-4xl text-center">Your Cart</h1>
+            <h1 className="text-4xl text-center sm:text-5xl">Your Cart</h1>
             <div className="flex flex-col mt-10 gap-y-8">
                 {products.map((product) => {
                     if (cartItems[product.id] !== 0) {

@@ -11,7 +11,7 @@ export default function BestSellers() {
 
     return (
         <section className="h-full p-10 bg-gray-50">
-            <h2 className="text-4xl font-bold text-center text-neutral-900">
+            <h2 className="text-4xl font-bold text-center text-neutral-900 sm:text-5xl">
                 Our Best Sellers
             </h2>
             <div className="flex items-center mt-10 overflow-x-scroll gap-x-4 min-[880px]:flex-wrap min-[880px]:justify-center min-[880px]:gap-x-10">
