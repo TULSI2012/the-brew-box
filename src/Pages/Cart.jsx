@@ -12,9 +12,14 @@ export default function Cart() {
     {/* Implementing the getTotalCartAmount function from the ShopContext and saving the value to a variable*/}
     const totalAmount = getTotalCartAmount() // ie totalAmount = 15
 
+    const cartIsEmpty = (products.filter(product => cartItems[product.id] !== 0)).length === 0 ? true : false
+
     return (
         <section className="min-h-screen px-6 py-10">
-            <h1 className="text-4xl text-center sm:text-5xl">Your Cart</h1>
+            <h1 className="text-4xl font-bold text-center sm:text-5xl">Your Cart</h1>
+            {cartIsEmpty ? <h2 className="mt-10 text-xl text-center">You have no items in your cart</h2> : 
+            
+            <>
             <div className="flex flex-col mt-10 gap-y-8">
                 {products.map((product) => {
                     if (cartItems[product.id] !== 0) {
@@ -53,6 +58,8 @@ export default function Cart() {
                     </Link>
                 </div>
             </div>
+            </>
+        }
         </section>
     )
 }

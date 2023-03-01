@@ -5,8 +5,6 @@ export default function CartItem(props) {
 
     const { cartItems, addToCart, removeFromCart } = useContext(ShopContext)
 
-    console.log(props.id)
-
     return (
         <div className="flex w-full max-w-3xl mx-auto gap-x-4">
             <div className="px-6 py-3 bg-gray-100 rounded-lg">
