@@ -5,6 +5,7 @@ import Collections from './Components/Collections'
 import Footer from './Components/Footer'
 import Hero from './Components/Hero'
 import Newsletter from './Components/Newsletter'
+import Offer from './Components/Offer'
 import AllProducts from './Pages/AllProducts'
 import CollectionPage from './Pages/CollectionPage'
 import BestSellersPage from './Pages/BestSellersPage'
@@ -25,6 +26,7 @@ function App() {
               <Hero />
               <Collections />
               <BestSellers />
+              <Offer />
               <Newsletter />
             </> } 
           />
