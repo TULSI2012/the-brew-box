@@ -14,7 +14,7 @@ export default function Collections() {
                 <div 
                     onClick={() => navigate("/collections/Roaster")}
                     className="relative w-full h-48 overflow-hidden rounded-md cursor-pointer group ">
-                    <img src="./Images/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
+                    <img src="/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
                     <p className="absolute bottom-0 left-0 px-4 py-2 text-2xl font-bold transition duration-500 ease-in-out text-stone-100 drop-shadow-xl group-hover:-translate-y-2">
                         Roasters Choice Collection
                     </p>
@@ -23,7 +23,7 @@ export default function Collections() {
                     <div
                         onClick={() => navigate("/collections/Seasonal")} 
                         className="relative w-full h-48 overflow-hidden rounded-md cursor-pointer group">
-                        <img src="./Images/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
+                        <img src="/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
                         <p className="absolute bottom-0 left-0 px-4 py-2 text-2xl font-bold transition duration-500 ease-in-out text-stone-100 drop-shadow-xl group-hover:-translate-y-2">
                             Seasonal Collection
                         </p>
@@ -31,7 +31,7 @@ export default function Collections() {
                     <div 
                         onClick={() => navigate("/collections/Espresso")}
                         className="relative w-full h-48 overflow-hidden rounded-md cursor-pointer group">
-                        <img src="./Images/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
+                        <img src="/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
                         <p className="absolute bottom-0 left-0 px-4 py-2 text-2xl font-bold transition duration-500 ease-in-out text-stone-100 drop-shadow-xl group-hover:-translate-y-2">
                             Espresso Collection
                         </p>
@@ -45,7 +45,7 @@ export default function Collections() {
                     <div 
                         onClick={() => navigate("/collections/Ethiopian")}
                         className="relative w-full h-48 overflow-hidden rounded-md cursor-pointer group">
-                        <img src="./Images/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
+                        <img src="/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
                         <p className="absolute bottom-0 left-0 px-4 py-2 text-2xl font-bold transition duration-500 ease-in-out text-stone-100 drop-shadow-xl group-hover:-translate-y-2">
                             Ethiopian Collection
                         </p>
@@ -53,7 +53,7 @@ export default function Collections() {
                     <div 
                         onClick={() => navigate("/collections/Colombian")}
                         className="relative w-full h-48 overflow-hidden rounded-md cursor-pointer group">
-                        <img src="./Images/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
+                        <img src="/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
                         <p className="absolute bottom-0 left-0 px-4 py-2 text-2xl font-bold transition duration-500 ease-in-out text-stone-100 drop-shadow-xl group-hover:-translate-y-2">
                             Coloumbian Collection
                         </p>
@@ -62,7 +62,7 @@ export default function Collections() {
                 <div 
                     onClick={() => navigate("/collections/Signature")}
                     className="relative w-full h-48 overflow-hidden rounded-md cursor-pointer group">
-                    <img src="./Images/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
+                    <img src="/coffee-cups.jpg" alt="coffee-cup" className="object-cover w-full h-48 duration-500 ease-in-out rounded-md brightness-50 hover:scale-105" />
                     <p className="absolute bottom-0 left-0 px-4 py-2 text-2xl font-bold transition duration-500 ease-in-out text-stone-100 drop-shadow-xl group-hover:-translate-y-2">
                         Signature Collection
                     </p>
