@@ -9,7 +9,7 @@ const products = [
         "flavours": "Lemon, blueberry, chocolate",
         "geography": "Ethiopia",
         "bean": "Arabica",
-        "image": "/src/Images/coffee-bag.png",
+        "image": "./Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -25,7 +25,7 @@ const products = [
         "flavours": "Caramel, nutmeg, dark chocolate",
         "geography": "Colombia",
         "bean": "Arabica",
-        "image": "/src/Images/coffee-bag.png",
+        "image": "./Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -41,7 +41,7 @@ const products = [
         "flavours": "Honey, apricot, citrus",
         "geography": "Guatemala",
         "bean": "Arabica",
-        "image": "/src/Images/coffee-bag.png",
+        "image": "./Images/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
