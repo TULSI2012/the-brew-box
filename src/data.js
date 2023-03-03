@@ -9,7 +9,7 @@ const products = [
         "flavours": "Lemon, blueberry, chocolate",
         "geography": "Ethiopia",
         "bean": "Arabica",
-        "image": "./Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -25,7 +25,7 @@ const products = [
         "flavours": "Caramel, nutmeg, dark chocolate",
         "geography": "Colombia",
         "bean": "Arabica",
-        "image": "./Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -41,7 +41,7 @@ const products = [
         "flavours": "Honey, apricot, citrus",
         "geography": "Guatemala",
         "bean": "Arabica",
-        "image": "./Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -57,7 +57,7 @@ const products = [
         "flavours": "Caramel, Milk chocolate",
         "geography": "Costa Rica",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -73,7 +73,7 @@ const products = [
         "flavours": "Nuts, spices, citrus",
         "geography": "Jamaica",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -89,7 +89,7 @@ const products = [
         "flavours": "Black currant, Peach",
         "geography": "Tanzania",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -105,7 +105,7 @@ const products = [
         "flavours": "Dark chocolate, Tobacco, Spice",
         "geography": "Sumatra",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -121,7 +121,7 @@ const products = [
         "flavours": "Nutty, chocolate, fruit",
         "geography": "Brazil",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -137,7 +137,7 @@ const products = [
         "flavours": "Caramel, nuts, cinnamon",
         "geography": "Mexico",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -153,7 +153,7 @@ const products = [
         "flavours": "Blueberry, Dark chocolate",
         "geography": "Ethiopia",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -168,7 +168,7 @@ const products = [
         "collection": "Espresso",
         "flavours": "Black currant, Grapefruit",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -184,7 +184,7 @@ const products = [
         "flavours": "Dark chocolate, molasses, spice",
         "geography": "Indonesia",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -200,7 +200,7 @@ const products = [
         "flavours": "Red currant, floral sweetness",
         "geography": "Rwanda",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -216,7 +216,7 @@ const products = [
         "flavours": "Chocolate, caramel, nuttiness",
         "geography": "Peru",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -233,7 +233,7 @@ const products = [
         "flavours": "Dark chocolate, hazelnut",
         "geography": "Vietnam",
         "bean": "Robusta",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -249,7 +249,7 @@ const products = [
         "flavours": "Spice, tobacco, fruitiness",
         "geography": "India",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -265,7 +265,7 @@ const products = [
         "flavours": "Blackberry, apricot, wine",
         "geography": "Yemen",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120
@@ -281,7 +281,7 @@ const products = [
         "flavours": "Nutty, caramel, Almond",
         "geography": "Nicaragua",
         "bean": "Arabica",
-        "image": "../src/Images/coffee-bag.png",
+        "image": "/coffee-bag.png",
         "rating": {
           "rate": 3.9,
           "count": 120

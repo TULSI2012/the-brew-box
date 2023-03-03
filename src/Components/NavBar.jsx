@@ -28,7 +28,7 @@ export default function Test() {
     return (
         <nav className="flex items-center justify-between px-6 py-4 text-gray-100 bg-black">
             <Link to="/">
-                <img src="../src/Images/logo.png" className="w-auto h-20"/>
+                <img src="/logo.png" className="w-auto h-20"/>
             </Link>
 
             {/* desktop nav menu */}
