@@ -9,7 +9,7 @@ export default function AllProducts() {
     const bestSellers = products.filter(product => product.bestSeller === true)
 
     return (
-        <section className="flex flex-col items-center gap-4 px-10 pb-24 bg-gray-50">
+        <section className="flex flex-col items-center gap-4 px-10 pb-24 bg-gray-50 min-h-screen ">
             <div className="flex self-start mt-4 ml-4 gap-x-1 text-neutral-600">
                 <Link to="/">Home</Link>
                 <p>/</p>
