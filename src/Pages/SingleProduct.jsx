@@ -28,15 +28,15 @@ export default function SingleProduct() {
     const cartItemAmount = cartItems[product.id]
 
     return (
-        <section className="px-10 pb-10 bg-gray-50">
-            <div className="flex self-start mt-4 text-xs gap-x-1 text-stone-500">
+        <section className="px-10 pb-10 bg-gray-50 min-h-screen">
+            <div className="flex self-start mt-4 text-xs gap-x-1 text-stone-500 mx-auto max-w-7xl">
                 <Link to="/">Home</Link>
                 <p>/</p>
                 <Link to="/all">All Coffee</Link>
                 <p>/</p>
                 <p>{product.title}</p>
             </div>
-            <div className="lg:flex lg:gap-x-8">
+            <div className="lg:flex lg:gap-x-8 max-w-7xl mx-auto">
                 <div className="flex justify-center w-3/4 max-w-lg py-6 mx-auto my-6 bg-gray-100 rounded-md lg:w-1/2 lg:mx-0">
                     <img src={product.image} className="w-1/2"/>
                 </div>
