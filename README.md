@@ -40,6 +40,5 @@ The feature that I am most proud of for this project was the shopping cart funct
 
 ## Author
 
-- Website - [James McGrory](https://jamesmcgrory.dev/)
-- Twitter - [@JomersDev](https://twitter.com/JomersDev)
+-Tulsi Kalola
 
