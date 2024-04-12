@@ -1,6 +1,6 @@
 # The Brew Box - Fictional Ecommerce store
 
-Live Site URL: [https://musical-speculoos-3a4e78.netlify.app/](https://musical-speculoos-3a4e78.netlify.app/)
+Live Site URL: [https://thecoffeshop.netlify.app/](https://thecoffeshop.netlify.app/)
 
 ## Overview
 
